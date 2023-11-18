@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 import pandas as pd
 
 # Defina sua chave de API aqui
-api_key = 'AIzaSyBJ3E9g4wtCX6RS-A4qYFQHGvasjHcSD3g'
+api_key = 'INSIRA A CHAVE API AQUI'
 
 # Inicializa o cliente da API do YouTube
 youtube = build('youtube', 'v3', developerKey=api_key)
